@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <InvoiceNo>24417000000123456789</InvoiceNo>
+  <InvoiceDate>2026-09-10</InvoiceDate>
+  <BuyerName>青禾科技有限公司</BuyerName>
+  <SellerName>老街红烧饭店</SellerName>
+  <TaxRate>3%</TaxRate>
+  <Amount>310.94</Amount>
+  <Tax>9.06</Tax>
+  <TotalAmount>320.00</TotalAmount>
+  <CNTotalAmount>叁佰贰拾圆整</CNTotalAmount>
+</Invoice>

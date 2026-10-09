@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>青禾报销单 - 张三</title>
+<style>
+  @page { size: A4; margin: 16mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; color:#222; font-size:12px; }
+  h1 { text-align:center; font-size:20px; margin:6px 0 2px; }
+  h3 { font-size:13px; margin:14px 0 6px; }
+  .sub { text-align:center; color:#666; margin-bottom:14px; }
+  table { width:100%; border-collapse:collapse; margin:6px 0; }
+  th, td { border:1px solid #999; padding:5px 6px; text-align:left; vertical-align:top; }
+  th { background:#f2f2f2; }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .cover { width:100%; border-collapse:collapse; margin:10px 0; }
+  .cover th { width:22%; background:#f2f2f2; }
+  .total { font-size:14px; font-weight:bold; }
+  .box { border:1px solid #999; padding:8px 10px; margin:8px 0; border-radius:4px; }
+  .ok-box { border-color:#2e7d32; background:#f1f8f1; }
+  .warn-box { border-color:#c62828; background:#fdf3f3; }
+  .warn { color:#c62828; }
+  .sign { margin-top:24px; display:flex; justify-content:space-between; }
+  .sign div { width:30%; border-top:1px solid #333; padding-top:4px; text-align:center; color:#333; }
+  .foot { margin-top:18px; color:#888; font-size:10px; }
+  @media print { .noprint { display:none; } }
+</style></head>
+<body>
+  <h1>费用报销单</h1>
+  <div class="sub">青禾科技有限公司 · 制单日期 2026-10-09</div>
+
+  <table class="cover">
+    <tr><th>报销人</th><td>张三</td><th>部门</th><td>研发部</td></tr>
+    <tr><th>费用所属期</th><td>2026-09</td><th>用途</th><td>9 月差旅及业务招待费</td></tr>
+    <tr><th>合计金额（小写）</th><td class="num">¥ 1678.00</td><th>合计金额（大写）</th><td class="total">壹仟陆佰柒拾捌圆整</td></tr>
+    <tr><th>附件张数</th><td>4 张</td><th>备注</th><td>自助生成，金额锚定发票原件</td></tr>
+  </table>
+
+  <h3>一、票据明细</h3>
+  <table>
+    <thead><tr><th>序号</th><th>发票号</th><th>开票日期</th><th>销售方</th><th>费用类型</th><th class="num">价税合计</th><th>大写金额</th><th>合规/提示</th></tr></thead>
+    <tbody>
+        <tr>
+          <td>1</td>
+          <td>24417000000123456789</td>
+          <td>2026-09-10</td>
+          <td>老街红烧饭店</td>
+          <td>餐饮</td>
+          <td class="num">320.00</td>
+          <td>叁佰贰拾圆整</td>
+          <td class="">✅ 合规</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>24417000000123456790</td>
+          <td>2026-09-12</td>
+          <td>滴滴出行科技有限公司</td>
+          <td>交通</td>
+          <td class="num">158.00</td>
+          <td>壹佰伍拾捌圆整</td>
+          <td class="">✅ 合规</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>24417000000123456791</td>
+          <td>2026-09-15</td>
+          <td>云顶大酒楼</td>
+          <td>餐饮</td>
+          <td class="num">880.00</td>
+          <td>捌佰捌拾圆整</td>
+          <td class="warn">【超标】餐饮单张 880.00 元，超过上限 500 元（单张餐饮发票不得超过 500 元）</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>24417000000123456789</td>
+          <td>2026-09-10</td>
+          <td>老街红烧饭店</td>
+          <td>餐饮</td>
+          <td class="num">320.00</td>
+          <td>叁佰贰拾圆整</td>
+          <td class="">✅ 合规</td>
+        </tr></tbody>
+  </table>
+
+  <h3>二、合规分析</h3>
+  <div class="box warn-box"><h3>⚠ 合规风险提示（共 1 项）</h3><ul><li>【超标】餐饮单张 880.00 元，超过上限 500 元（单张餐饮发票不得超过 500 元）</li></ul></div>
+
+  <div class="sign">
+    <div>报销人签字</div><div>业务事实核对人</div><div>审批人</div>
+  </div>
+  <div class="foot">本报销单由「青禾报销助手_ybw」demo 自动生成；金额锚定发票原件，制度由专业一人维护，业务事实由另一人核对（职责分离）。</div>
+  <div class="noprint" style="margin-top:20px;color:#1565c0;">💡 在浏览器中按 Ctrl/Cmd+P 即可打印或另存为 PDF。</div>
+</body></html>

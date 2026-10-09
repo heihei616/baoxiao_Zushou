@@ -1,0 +1,11 @@
+{
+  "org_name": "青禾科技有限公司",
+  "required_fields": ["invoice_no", "invoice_date", "seller_name", "total_amount"],
+  "categories": {
+    "餐饮": { "max_per_invoice": 500, "note": "单张餐饮发票不得超过 500 元" },
+    "交通": { "max_per_invoice": 200, "note": "网约车/打车单张不超过 200 元" },
+    "住宿": { "max_per_invoice": 800, "note": "住宿单晚不超过 800 元" },
+    "办公": { "max_per_invoice": 5000, "note": "办公用品单张原则上不超过 5000 元" }
+  },
+  "private_transport_keywords": ["住宅", "小区", "周末", "深夜", "商场", "餐厅"]
+}

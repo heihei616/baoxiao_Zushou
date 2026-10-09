@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <InvoiceNo>24417000000123456790</InvoiceNo>
+  <InvoiceDate>2026-09-12</InvoiceDate>
+  <BuyerName>青禾科技有限公司</BuyerName>
+  <SellerName>滴滴出行科技有限公司</SellerName>
+  <TaxRate>3%</TaxRate>
+  <Amount>153.52</Amount>
+  <Tax>4.48</Tax>
+  <TotalAmount>158.00</TotalAmount>
+  <CNTotalAmount>壹佰伍拾捌圆整</CNTotalAmount>
+</Invoice>
